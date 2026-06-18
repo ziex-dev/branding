@@ -30,7 +30,7 @@ Logos, the Ziguana mascot, and banners (static + animated).
 
 ## Logo
 
-`64 × 58`
+`512 × 512`
 
 ![Ziex logo](./ziex-logo-colored.svg)
 
