@@ -32,11 +32,16 @@ Logos, the Ziguana mascot, and banners (static + animated).
 
 `64 × 58`
 
-![Ziex logo](./ziex-logo.svg)
+![Ziex logo](./ziex-logo-colored.svg)
 
 | File | Size | Notes |
 |---|---|---|
-| [`ziex-logo.svg`](./ziex-logo.svg) | 1.2 KB | Vector logo mark |
+| [`ziex-logo-black.svg`](./ziex-logo-black.svg) | 1 KB | Vector logo mark |
+| [`ziex-logo-black-bgw.svg`](./ziex-logo-black-bgw.svg) | 1 KB | Vector logo mark |
+| [`ziex-logo-colored-bgw.svg`](./ziex-logo-colored-bgw.svg) | 1 KB | Vector logo mark |
+| [`ziex-logo-colored.svg`](./ziex-logo-colored.svg) | 1 KB | Vector logo mark |
+| [`ziex-logo-white-bgb.svg`](./ziex-logo-white-bgb.svg) | 1 KB | Vector logo mark |
+| [`ziex-logo-white.svg`](./ziex-logo-white.svg) | 1 KB | Vector logo mark |
 
 ## Ziguana (mascot)
 
@@ -49,10 +54,9 @@ Logos, the Ziguana mascot, and banners (static + animated).
 | [`ziex-ziguana.svg`](./ziex-ziguana.svg) | 246 KB | Full-detail vector |
 | [`ziex-ziguana.png`](./ziex-ziguana.png) | 416 KB | Raster |
 | [`compressed/ziex-ziguana.svg`](./compressed/ziex-ziguana.svg) | 175 KB | Optimized vector |
-| [`compressed/ziex-ziguana.webp`](./compressed/ziex-ziguana.webp) | 45 KB | Optimized raster — best for web |
+| [`compressed/ziex-ziguana.webp`](./compressed/ziex-ziguana.webp) | 45 KB | Optimized raster for web |
 
 ## Usage
 
 - Prefer SVG for crisp rendering at any size.
-- For web embeds where bytes matter, use [`compressed/ziex-ziguana.webp`](./compressed/ziex-ziguana.webp).
 - Use the green brand color `#4ADE80` for the logo mark.
