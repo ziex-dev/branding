@@ -55,6 +55,11 @@ Logos, the Ziguana mascot, and banners (static + animated).
 | [`ziex-ziguana.png`](./ziex-ziguana.png) | 416 KB | Raster |
 | [`compressed/ziex-ziguana.svg`](./compressed/ziex-ziguana.svg) | 175 KB | Optimized vector |
 | [`compressed/ziex-ziguana.webp`](./compressed/ziex-ziguana.webp) | 45 KB | Optimized raster for web |
+| [`compressed/ziex-ziguana-animated.svg`](./compressed/ziex-ziguana-animated.svg) | 183 KB | Animated SVG, 4s seamless loop |
+
+![Animated Ziex Ziguana](./compressed/ziex-ziguana-animated.svg)
+
+The animated version is generated from `compressed/ziex-ziguana-cleaned.svg`; edit and rerun `node tools/ziguana-anim/index.mjs` rather than the output.
 
 ## Release media
 
