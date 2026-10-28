@@ -1,0 +1,9 @@
+{
+  "name": "featuregif",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "gifenc": "1.0.3",
+    "playwright": "1.62.1"
+  }
+}

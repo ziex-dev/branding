@@ -56,6 +56,20 @@ Logos, the Ziguana mascot, and banners (static + animated).
 | [`compressed/ziex-ziguana.svg`](./compressed/ziex-ziguana.svg) | 175 KB | Optimized vector |
 | [`compressed/ziex-ziguana.webp`](./compressed/ziex-ziguana.webp) | 45 KB | Optimized raster for web |
 
+## Release media
+
+Animated feature GIFs for release notes, rendered from the ziex.dev home page canvases and stored in [`release/<version>/`](./release). They are `1280 × 768` with a `#0d1117` background, so they blend into GitHub's dark mode.
+
+To regenerate them, run the ziex site locally (`http://localhost:3000`), then:
+
+```bash
+cd tools/featuregif && npm i && cd ../..
+node tools/featuregif/index.mjs --version 0.1.0          # all scenes
+node tools/featuregif/index.mjs --version 0.1.0 tooling  # one scene
+```
+
+Embed them with `https://raw.githubusercontent.com/ziex-dev/branding/main/release/<version>/<scene>.gif`.
+
 ## Usage
 
 - Prefer SVG for crisp rendering at any size.
